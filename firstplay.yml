@@ -4,7 +4,7 @@
   connection: local
 
   vars:
-    path: Git/python/py4e/course2
+    path: /Users/Tree/Git/python/py4e/course2
     firstletter: e
 
   tasks:
