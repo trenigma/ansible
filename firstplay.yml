@@ -1,0 +1,12 @@
+---
+- name: list files in a directory
+  hosts: localhost
+  connection: local
+
+  vars:
+    path: Git/python/py4e/course2
+    firstletter: e
+
+  tasks:
+    - name: grep ls for 'e'
+      shell: ls {{ path }} | grep {{ firstletter }}
