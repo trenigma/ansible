@@ -1,4 +1,4 @@
-# example playbook with multiple tasks
+# first attempt at a playbook with multiple tasks
 # update hostfile, add a user group, exec an install script, start httpd
 ---
 -
